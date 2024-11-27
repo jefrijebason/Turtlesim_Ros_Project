@@ -1,0 +1,201 @@
+[0.037s] Invoking command in '/home/jefri/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake /home/jefri/ros2_ws/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jefri/ros2_ws/install/custom_interfaces
+[0.351s] -- The C compiler identification is GNU 11.4.0
+[0.519s] -- The CXX compiler identification is GNU 11.4.0
+[0.536s] -- Detecting C compiler ABI info
+[0.871s] -- Detecting C compiler ABI info - done
+[0.937s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.942s] -- Detecting C compile features
+[0.942s] -- Detecting C compile features - done
+[0.961s] -- Detecting CXX compiler ABI info
+[1.393s] -- Detecting CXX compiler ABI info - done
+[1.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.431s] -- Detecting CXX compile features
+[1.437s] -- Detecting CXX compile features - done
+[1.446s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.985s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.190s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.247s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.264s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.127s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.432s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.437s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.507s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.507s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.507s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.507s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.567s] -- Found PythonExtra: .so  
+[4.733s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.824s] -- Added test 'lint_cmake' to check CMake code style
+[4.827s] -- Added test 'xmllint' to check XML markup files
+[4.856s] -- Configuring done
+[5.025s] -- Generating done
+[5.040s] -- Build files have been written to: /home/jefri/ros2_ws/build/custom_interfaces
+[5.075s] Invoked command in '/home/jefri/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake /home/jefri/ros2_ws/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jefri/ros2_ws/install/custom_interfaces
+[5.081s] Invoking command in '/home/jefri/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake --build /home/jefri/ros2_ws/build/custom_interfaces -- -j2 -l2
+[5.198s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.234s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.552s] [  9%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/add_two_int__functions.c.o[0m
+[6.735s] [  9%] Built target custom_interfaces__cpp
+[6.796s] [ 12%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[6.851s] [ 12%] Built target ament_cmake_python_symlink_custom_interfaces
+[6.899s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.966s] [ 16%] Built target custom_interfaces__rosidl_generator_c
+[6.986s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.271s] [ 22%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/add_two_int__type_support.cpp.o[0m
+[8.448s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/add_two_int__type_support.cpp.o[0m
+[9.986s] [ 29%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[10.089s] [ 29%] Built target custom_interfaces__rosidl_typesupport_cpp
+[10.134s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.131s] [ 35%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.400s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/add_two_int__type_support.cpp.o[0m
+[11.645s] [ 38%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.551s] [ 41%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[13.770s] [ 41%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[13.776s] running egg_info
+[13.782s] creating custom_interfaces.egg-info
+[13.782s] writing custom_interfaces.egg-info/PKG-INFO
+[13.783s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[13.792s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[13.792s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[13.818s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[13.825s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[13.849s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.023s] [ 45%] Built target ament_cmake_python_build_custom_interfaces_egg
+[14.086s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.492s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/add_two_int__type_support_c.cpp.o[0m
+[15.551s] [ 54%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/add_two_int__type_support.c.o[0m
+[15.715s] [ 58%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.885s] [ 58%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[15.935s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.282s] [ 64%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/add_two_int__type_support.cpp.o[0m
+[17.434s] [ 67%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[17.636s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[17.663s] [ 70%] Built target custom_interfaces__rosidl_typesupport_c
+[17.979s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[18.067s] [ 70%] Built target custom_interfaces
+[18.175s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.888s] [ 74%] Built target custom_interfaces__py
+[19.988s] [ 77%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_add_two_int_s.c.o[0m
+[20.424s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[20.579s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[20.682s] [ 83%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.688s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[21.202s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.216s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.431s] [ 93%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[21.452s] [ 93%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[21.484s] [ 96%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[21.819s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.989s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[22.053s] Invoked command in '/home/jefri/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake --build /home/jefri/ros2_ws/build/custom_interfaces -- -j2 -l2
+[22.315s] Invoking command in '/home/jefri/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake --install /home/jefri/ros2_ws/build/custom_interfaces
+[22.353s] -- Install configuration: ""
+[22.357s] -- Execute custom install script
+[22.362s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[22.406s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[22.444s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/add_two_int.h
+[22.480s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__functions.h
+[22.518s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__struct.h
+[22.551s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__type_support.h
+[22.598s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[22.636s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[22.675s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.713s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__rosidl_typesupport_fastrtps_c.h
+[22.764s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.817s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__rosidl_typesupport_introspection_c.h
+[22.869s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/add_two_int.hpp
+[22.932s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__builder.hpp
+[22.996s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__struct.hpp
+[23.045s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__traits.hpp
+[23.108s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.167s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__rosidl_typesupport_fastrtps_cpp.hpp
+[23.215s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__rosidl_typesupport_introspection_cpp.hpp
+[23.263s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[23.312s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[23.387s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[23.448s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[23.498s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[23.533s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[23.554s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[23.585s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[23.610s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.633s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[23.651s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.688s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.734s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.755s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[23.782s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[23.807s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_add_two_int.py
+[23.825s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_add_two_int_s.c
+[23.853s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.855s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.858s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.860s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInt.idl
+[23.913s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInt.srv
+[23.954s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInt_Request.msg
+[23.995s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInt_Response.msg
+[24.047s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[24.093s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[24.145s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[24.191s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[24.240s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[24.275s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[24.319s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[24.351s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[24.379s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[24.403s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[24.425s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[24.443s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[24.466s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[24.487s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.509s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[24.528s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[24.547s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.565s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.589s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.614s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[24.633s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[24.652s] -- Symlinking: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[24.683s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[24.683s] -- Set runtime path of "/home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[24.683s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[24.683s] -- Set runtime path of "/home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[24.691s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[24.692s] -- Set runtime path of "/home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[24.692s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[24.692s] -- Set runtime path of "/home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[24.692s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[24.696s] -- Set runtime path of "/home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.698s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[24.702s] -- Set runtime path of "/home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[24.704s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[24.705s] -- Set runtime path of "/home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[24.801s] Listing '/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[24.801s] Compiling '/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[24.801s] Listing '/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[24.801s] Compiling '/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[24.802s] Compiling '/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_add_two_int.py'...
+[24.825s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[24.825s] -- Set runtime path of "/home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[24.825s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[24.826s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[24.829s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[24.833s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[24.838s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[24.843s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.844s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[24.846s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[24.851s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[24.856s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.857s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[24.860s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[24.863s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.867s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[24.871s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[24.874s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[24.877s] -- Installing: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[24.901s] Invoked command in '/home/jefri/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake --install /home/jefri/ros2_ws/build/custom_interfaces

@@ -1,0 +1,204 @@
+[0.040s] Invoking command in '/home/jefri/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake /home/jefri/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/jefri/ros2_ws/install/my_robot_interfaces
+[0.076s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.462s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.471s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.477s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.483s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.581s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.240s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.723s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.628s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.687s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.688s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.688s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.757s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.777s] -- Added test 'lint_cmake' to check CMake code style
+[2.778s] -- Added test 'xmllint' to check XML markup files
+[2.784s] -- Configuring done
+[2.861s] -- Generating done
+[2.870s] -- Build files have been written to: /home/jefri/ros2_ws/build/my_robot_interfaces
+[2.886s] Invoked command in '/home/jefri/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake /home/jefri/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/jefri/ros2_ws/install/my_robot_interfaces
+[2.891s] Invoking command in '/home/jefri/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake --build /home/jefri/ros2_ws/build/my_robot_interfaces -- -j2 -l2
+[2.984s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c[0m
+[2.996s] [  1%] Built target my_robot_interfaces__cpp
+[3.028s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[3.059s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_cpp[0m
+[3.104s] [ 23%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[3.143s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.179s] [ 23%] Built target ament_cmake_python_symlink_my_robot_interfaces
+[3.219s] [ 34%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[3.240s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c[0m
+[3.262s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c[0m
+[3.299s] [ 45%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[3.332s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.345s] [ 56%] Built target my_robot_interfaces__rosidl_typesupport_c
+[3.398s] [ 67%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.398s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.464s] [ 78%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[3.519s] [ 78%] Built target my_robot_interfaces
+[3.574s] [ 80%] Built target my_robot_interfaces__py
+[3.608s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_py[0m
+[3.656s] [ 89%] Built target my_robot_interfaces__rosidl_generator_py
+[3.686s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.714s] [ 92%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.739s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.767s] [ 96%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.793s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext[0m
+[3.817s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[4.097s] running egg_info
+[4.098s] writing my_robot_interfaces.egg-info/PKG-INFO
+[4.100s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[4.100s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[4.105s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[4.106s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[4.179s] [100%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[4.204s] Invoked command in '/home/jefri/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake --build /home/jefri/ros2_ws/build/my_robot_interfaces -- -j2 -l2
+[4.565s] Invoking command in '/home/jefri/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake --install /home/jefri/ros2_ws/build/my_robot_interfaces
+[4.589s] -- Install configuration: ""
+[4.592s] -- Execute custom install script
+[4.592s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[4.597s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__functions.h
+[4.601s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__struct.h
+[4.601s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__type_support.h
+[4.606s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__functions.h
+[4.609s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.h
+[4.610s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.h
+[4.610s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__functions.h
+[4.610s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.h
+[4.610s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.h
+[4.613s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardwarestatus.h
+[4.614s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.615s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.h
+[4.615s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_array.h
+[4.615s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/catch_turtle.h
+[4.615s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__functions.h
+[4.619s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__struct.h
+[4.620s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__type_support.h
+[4.620s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[4.620s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[4.620s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_fastrtps_c.h
+[4.624s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h
+[4.624s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h
+[4.624s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.624s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_c.h
+[4.624s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_introspection_c.h
+[4.625s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+[4.627s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
+[4.627s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.627s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_c.h
+[4.627s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__builder.hpp
+[4.628s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__struct.hpp
+[4.628s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__traits.hpp
+[4.628s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__builder.hpp
+[4.628s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.hpp
+[4.628s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__traits.hpp
+[4.628s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__builder.hpp
+[4.629s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.hpp
+[4.629s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__traits.hpp
+[4.629s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardwarestatus.hpp
+[4.629s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.hpp
+[4.629s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_array.hpp
+[4.630s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/catch_turtle.hpp
+[4.630s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__builder.hpp
+[4.630s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__struct.hpp
+[4.631s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__traits.hpp
+[4.631s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_fastrtps_cpp.hpp
+[4.631s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[4.632s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.632s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.632s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[4.632s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_introspection_cpp.hpp
+[4.632s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp
+[4.636s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp
+[4.637s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp
+[4.637s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[4.637s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[4.637s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.637s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.640s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.640s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.641s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py
+[4.641s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[4.641s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.641s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.641s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so
+[4.641s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py
+[4.644s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardwarestatus.py
+[4.647s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardwarestatus_s.c
+[4.648s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle.py
+[4.650s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_array.py
+[4.650s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_array_s.c
+[4.650s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_s.c
+[4.650s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.651s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.651s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.651s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py
+[4.651s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_catch_turtle.py
+[4.651s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_catch_turtle_s.c
+[4.655s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.656s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.656s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.658s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Hardwarestatus.idl
+[4.658s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.idl
+[4.658s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.idl
+[4.658s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle.idl
+[4.661s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Hardwarestatus.msg
+[4.661s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.msg
+[4.663s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.msg
+[4.664s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle.srv
+[4.666s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle_Request.msg
+[4.667s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle_Response.msg
+[4.667s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[4.670s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[4.670s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[4.674s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[4.674s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[4.676s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[4.677s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[4.677s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[4.680s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[4.681s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[4.682s] -- Symlinking: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[4.706s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[4.706s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.708s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.710s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.711s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.712s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.713s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.713s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.715s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[4.716s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[4.716s] -- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[4.716s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[4.716s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.719s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[4.719s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[4.719s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.721s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.722s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[4.793s] Listing '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...
+[4.793s] Compiling '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...
+[4.794s] Listing '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...
+[4.794s] Listing '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...
+[4.807s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[4.808s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[4.809s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.810s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.810s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.810s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.813s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.813s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[4.813s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.813s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[4.814s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.815s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.815s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.816s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.816s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[4.816s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.816s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[4.816s] -- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.820s] Invoked command in '/home/jefri/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble /usr/bin/cmake --install /home/jefri/ros2_ws/build/my_robot_interfaces

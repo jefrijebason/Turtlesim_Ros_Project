@@ -1,0 +1,6 @@
+[console_scripts]
+add_int_server = my_robot_controller.add_int_server:main
+publisher = my_robot_controller.publisher:main
+subscribe = my_robot_controller.subscribe:main
+test_node = my_robot_controller.my_first_node:main
+

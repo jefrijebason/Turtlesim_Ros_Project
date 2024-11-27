@@ -1,0 +1,40 @@
+[1.761s] Invoking command in '/home/jefri/ros2_ws/build/add_integers': CMAKE_PREFIX_PATH=/home/jefri/ros2_ws/install/custom_interfaces:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/src/install/my_robot_interfaces LD_LIBRARY_PATH=/home/jefri/ros2_ws/install/custom_interfaces/lib:/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jefri/ros2_ws/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jefri/ros2_ws/build/add_integers/build
+[2.352s] running develop
+[2.654s] Removing /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add-integers.egg-link (link to .)
+[2.746s] Invoked command in '/home/jefri/ros2_ws/build/add_integers' returned '0': CMAKE_PREFIX_PATH=/home/jefri/ros2_ws/install/custom_interfaces:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/src/install/my_robot_interfaces LD_LIBRARY_PATH=/home/jefri/ros2_ws/install/custom_interfaces/lib:/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jefri/ros2_ws/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jefri/ros2_ws/build/add_integers/build
+[2.749s] Invoking command in '/home/jefri/ros2_ws/src/add_integers': CMAKE_PREFIX_PATH=/home/jefri/ros2_ws/install/custom_interfaces:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/src/install/my_robot_interfaces LD_LIBRARY_PATH=/home/jefri/ros2_ws/install/custom_interfaces/lib:/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jefri/ros2_ws/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/add_integers build --build-base /home/jefri/ros2_ws/build/add_integers/build install --record /home/jefri/ros2_ws/build/add_integers/install.log --single-version-externally-managed install_data --force
+[3.358s] running egg_info
+[3.360s] writing ../../build/add_integers/add_integers.egg-info/PKG-INFO
+[3.363s] writing dependency_links to ../../build/add_integers/add_integers.egg-info/dependency_links.txt
+[3.363s] writing entry points to ../../build/add_integers/add_integers.egg-info/entry_points.txt
+[3.363s] writing requirements to ../../build/add_integers/add_integers.egg-info/requires.txt
+[3.363s] writing top-level names to ../../build/add_integers/add_integers.egg-info/top_level.txt
+[3.418s] reading manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[3.431s] writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[3.433s] running build
+[3.433s] running build_py
+[3.433s] creating /home/jefri/ros2_ws/build/add_integers/build
+[3.433s] creating /home/jefri/ros2_ws/build/add_integers/build/lib
+[3.433s] creating /home/jefri/ros2_ws/build/add_integers/build/lib/add_integers
+[3.434s] copying add_integers/service_node.py -> /home/jefri/ros2_ws/build/add_integers/build/lib/add_integers
+[3.444s] copying add_integers/client_node.py -> /home/jefri/ros2_ws/build/add_integers/build/lib/add_integers
+[3.454s] copying add_integers/__init__.py -> /home/jefri/ros2_ws/build/add_integers/build/lib/add_integers
+[3.454s] running install
+[3.455s] running install_lib
+[3.457s] creating /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers
+[3.458s] copying /home/jefri/ros2_ws/build/add_integers/build/lib/add_integers/service_node.py -> /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers
+[3.458s] copying /home/jefri/ros2_ws/build/add_integers/build/lib/add_integers/client_node.py -> /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers
+[3.458s] copying /home/jefri/ros2_ws/build/add_integers/build/lib/add_integers/__init__.py -> /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers
+[3.459s] byte-compiling /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers/service_node.py to service_node.cpython-310.pyc
+[3.461s] byte-compiling /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers/client_node.py to client_node.cpython-310.pyc
+[3.463s] byte-compiling /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers/__init__.py to __init__.cpython-310.pyc
+[3.463s] running install_data
+[3.463s] copying resource/add_integers -> /home/jefri/ros2_ws/install/add_integers/share/ament_index/resource_index/packages
+[3.464s] copying package.xml -> /home/jefri/ros2_ws/install/add_integers/share/add_integers
+[3.464s] running install_egg_info
+[3.468s] Copying ../../build/add_integers/add_integers.egg-info to /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info
+[3.481s] running install_scripts
+[3.522s] Installing addition_client script to /home/jefri/ros2_ws/install/add_integers/lib/add_integers
+[3.522s] Installing addition_service script to /home/jefri/ros2_ws/install/add_integers/lib/add_integers
+[3.523s] writing list of installed files to '/home/jefri/ros2_ws/build/add_integers/install.log'
+[3.600s] Invoked command in '/home/jefri/ros2_ws/src/add_integers' returned '0': CMAKE_PREFIX_PATH=/home/jefri/ros2_ws/install/custom_interfaces:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/src/install/my_robot_interfaces LD_LIBRARY_PATH=/home/jefri/ros2_ws/install/custom_interfaces/lib:/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jefri/ros2_ws/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/add_integers build --build-base /home/jefri/ros2_ws/build/add_integers/build install --record /home/jefri/ros2_ws/build/add_integers/install.log --single-version-externally-managed install_data --force

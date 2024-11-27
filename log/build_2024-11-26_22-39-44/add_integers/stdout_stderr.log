@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing add_integers.egg-info/PKG-INFO
+writing dependency_links to add_integers.egg-info/dependency_links.txt
+writing entry points to add_integers.egg-info/entry_points.txt
+writing requirements to add_integers.egg-info/requires.txt
+writing top-level names to add_integers.egg-info/top_level.txt
+reading manifest file 'add_integers.egg-info/SOURCES.txt'
+writing manifest file 'add_integers.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add-integers.egg-link (link to .)
+Installing addition_client script to /home/jefri/ros2_ws/install/add_integers/lib/add_integers
+Installing addition_service script to /home/jefri/ros2_ws/install/add_integers/lib/add_integers
+
+Installed /home/jefri/ros2_ws/build/add_integers
+running symlink_data

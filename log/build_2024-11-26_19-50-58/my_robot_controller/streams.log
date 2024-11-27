@@ -1,0 +1,27 @@
+[2.920s] Invoking command in '/home/jefri/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/jefri/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jefri/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[3.918s] running develop
+[4.631s] running egg_info
+[4.632s] creating my_robot_controller.egg-info
+[4.633s] writing my_robot_controller.egg-info/PKG-INFO
+[4.634s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[4.635s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[4.637s] writing requirements to my_robot_controller.egg-info/requires.txt
+[4.638s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[4.639s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[4.648s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[4.650s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[4.655s] running build_ext
+[4.656s] Creating /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[4.658s] Installing add_int_server script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[4.661s] Installing publisher script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[4.661s] Installing subscribe script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[4.661s] Installing test_node script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[4.662s] 
+[4.662s] Installed /home/jefri/ros2_ws/build/my_robot_controller
+[4.662s] running symlink_data
+[4.662s] creating /home/jefri/ros2_ws/install/my_robot_controller/share/ament_index
+[4.662s] creating /home/jefri/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[4.662s] creating /home/jefri/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[4.663s] symbolically linking /home/jefri/ros2_ws/build/my_robot_controller/resource/my_robot_controller -> /home/jefri/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[4.665s] symbolically linking /home/jefri/ros2_ws/build/my_robot_controller/package.xml -> /home/jefri/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[4.870s] Invoked command in '/home/jefri/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/jefri/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jefri/ros2_ws/build/my_robot_controller/build --no-deps symlink_data

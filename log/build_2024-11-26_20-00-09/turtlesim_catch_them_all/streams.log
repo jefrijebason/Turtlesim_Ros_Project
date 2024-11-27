@@ -1,0 +1,18 @@
+[1.382s] Invoking command in '/home/jefri/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jefri/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jefri/ros2_ws/build/turtlesim_catch_them_all/build --no-deps symlink_data
+[1.939s] running develop
+[2.260s] running egg_info
+[2.263s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[2.266s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[2.266s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[2.267s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[2.267s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[2.267s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[2.270s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[2.271s] running build_ext
+[2.272s] Creating /home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[2.275s] Installing turtle_spawner script to /home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[2.276s] Installing turtlesim_controller script to /home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[2.276s] 
+[2.276s] Installed /home/jefri/ros2_ws/build/turtlesim_catch_them_all
+[2.276s] running symlink_data
+[2.367s] Invoked command in '/home/jefri/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jefri/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jefri/ros2_ws/build/turtlesim_catch_them_all/build --no-deps symlink_data

@@ -1,0 +1,684 @@
+[0.000000] (-) TimerEvent: {}
+[0.002795] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.002918] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.002962] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.003001] (add_integers) JobQueued: {'identifier': 'add_integers', 'dependencies': OrderedDict([('custom_interfaces', '/home/jefri/ros2_ws/install/custom_interfaces')])}
+[0.003045] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/jefri/ros2_ws/install/my_robot_interfaces')])}
+[0.003088] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.026718] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.050463] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.052106] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.054227] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jefri/ros2_ws/build/custom_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/jefri/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jefri'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jefri'), ('OLDPWD', '/home/jefri/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1307'), ('SYSTEMD_EXEC_PID', '1476'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6379'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jefri/ros2_ws/install:/home/jefri/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jefri'), ('JOURNAL_STREAM', '8:12020'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jefri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jefri-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1446,unix/jefri-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1446'), ('INVOCATION_ID', '1b9a3b904a4e47339868aea67a405752'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LN52X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/home/jefri/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5897e6ae-f307-47c8-bf39-50d0ba9d9740'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jefri/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jefri/ros2_ws/build/my_robot_controller:/home/jefri/ros2_ws/build/add_integers:/home/jefri/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/my_robot_controller:/home/jefri/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/custom_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble')]), 'shell': False}
+[0.075692] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.078446] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.078827] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jefri/ros2_ws/build/my_robot_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/jefri/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jefri'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jefri'), ('OLDPWD', '/home/jefri/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1307'), ('SYSTEMD_EXEC_PID', '1476'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6379'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jefri/ros2_ws/install:/home/jefri/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jefri'), ('JOURNAL_STREAM', '8:12020'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jefri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jefri-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1446,unix/jefri-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1446'), ('INVOCATION_ID', '1b9a3b904a4e47339868aea67a405752'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LN52X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/home/jefri/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5897e6ae-f307-47c8-bf39-50d0ba9d9740'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jefri/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jefri/ros2_ws/build/my_robot_controller:/home/jefri/ros2_ws/build/add_integers:/home/jefri/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/my_robot_controller:/home/jefri/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/custom_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble')]), 'shell': False}
+[0.100304] (-) TimerEvent: {}
+[0.201045] (-) TimerEvent: {}
+[0.249334] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.269972] (custom_interfaces) StdoutLine: {'line': b'[  3%] Built target custom_interfaces__cpp\n'}
+[0.284014] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__rosidl_generator_c\n'}
+[0.301461] (-) TimerEvent: {}
+[0.334797] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[0.391813] (custom_interfaces) StdoutLine: {'line': b'[ 32%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.397017] (custom_interfaces) StdoutLine: {'line': b'[ 32%] Built target ament_cmake_python_symlink_custom_interfaces\n'}
+[0.402603] (-) TimerEvent: {}
+[0.481284] (custom_interfaces) StdoutLine: {'line': b'[ 41%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.498308] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[0.502747] (-) TimerEvent: {}
+[0.604281] (-) TimerEvent: {}
+[0.610401] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.623740] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.679721] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[0.704457] (-) TimerEvent: {}
+[0.732282] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[0.793336] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__rosidl_generator_py\n'}
+[0.804589] (-) TimerEvent: {}
+[0.854370] (custom_interfaces) StdoutLine: {'line': b'[ 87%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.906341] (-) TimerEvent: {}
+[0.907349] (my_robot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.922024] (custom_interfaces) StdoutLine: {'line': b'[ 93%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.939633] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.948672] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.959279] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.006476] (-) TimerEvent: {}
+[1.020343] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.060281] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.106649] (-) TimerEvent: {}
+[1.120505] (my_robot_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.206797] (-) TimerEvent: {}
+[1.307511] (-) TimerEvent: {}
+[1.409255] (-) TimerEvent: {}
+[1.509960] (-) TimerEvent: {}
+[1.612514] (-) TimerEvent: {}
+[1.660859] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.663631] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[1.664097] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[1.664382] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[1.669369] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[1.672744] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[1.712688] (-) TimerEvent: {}
+[1.759639] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[1.797627] (custom_interfaces) CommandEnded: {'returncode': 0}
+[1.812877] (-) TimerEvent: {}
+[1.915611] (-) TimerEvent: {}
+[1.953430] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[1.976501] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jefri/ros2_ws/build/custom_interfaces'], 'cwd': '/home/jefri/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jefri'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jefri'), ('OLDPWD', '/home/jefri/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1307'), ('SYSTEMD_EXEC_PID', '1476'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6379'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jefri/ros2_ws/install:/home/jefri/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jefri'), ('JOURNAL_STREAM', '8:12020'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jefri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jefri-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1446,unix/jefri-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1446'), ('INVOCATION_ID', '1b9a3b904a4e47339868aea67a405752'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LN52X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/home/jefri/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5897e6ae-f307-47c8-bf39-50d0ba9d9740'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jefri/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jefri/ros2_ws/build/my_robot_controller:/home/jefri/ros2_ws/build/add_integers:/home/jefri/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/my_robot_controller:/home/jefri/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/custom_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble')]), 'shell': False}
+[2.001175] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.003778] (custom_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.004279] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[2.007034] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.007503] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/add_two_int.h\n'}
+[2.008964] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__functions.h\n'}
+[2.009804] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__struct.h\n'}
+[2.012204] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__type_support.h\n'}
+[2.012539] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[2.012717] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[2.014669] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.015036] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__rosidl_typesupport_fastrtps_c.h\n'}
+[2.016467] (-) TimerEvent: {}
+[2.018897] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.020098] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__rosidl_typesupport_introspection_c.h\n'}
+[2.022848] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/add_two_int.hpp\n'}
+[2.024248] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__builder.hpp\n'}
+[2.024583] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__struct.hpp\n'}
+[2.024878] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__traits.hpp\n'}
+[2.027829] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.029885] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.030339] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_int__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.031939] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[2.034241] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[2.035192] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.035618] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.038240] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.038557] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.040433] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[2.041700] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.046563] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.047247] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.048488] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.048702] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.048827] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.048971] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[2.050235] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[2.050661] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_add_two_int.py\n'}
+[2.051010] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_add_two_int_s.c\n'}
+[2.053742] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.054267] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.054887] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.055319] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInt.idl\n'}
+[2.058885] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInt.srv\n'}
+[2.059943] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInt_Request.msg\n'}
+[2.060804] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInt_Response.msg\n'}
+[2.062461] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[2.062797] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[2.065723] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[2.066631] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.067375] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[2.068600] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[2.068775] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[2.071961] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[2.073239] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[2.074967] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[2.075308] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[2.076565] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[2.077412] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.077632] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.080472] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.080782] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.081957] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.083763] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.084489] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.085456] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[2.085612] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[2.085724] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[2.085838] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[2.090769] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.093283] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.094061] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[2.094630] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.095144] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.101326] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.108533] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.117252] (-) TimerEvent: {}
+[2.190453] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[2.190771] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[2.207125] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[2.207782] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.207931] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.208606] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.208947] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.210434] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.210713] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.210928] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.211374] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.212036] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.212667] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.213143] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.213876] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.214798] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.216021] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.216310] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.216706] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.216962] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.217355] (-) TimerEvent: {}
+[2.223477] (custom_interfaces) CommandEnded: {'returncode': 0}
+[2.317506] (-) TimerEvent: {}
+[2.420223] (-) TimerEvent: {}
+[2.473644] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[2.476097] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[2.521253] (-) TimerEvent: {}
+[2.621876] (-) TimerEvent: {}
+[2.724084] (-) TimerEvent: {}
+[2.813284] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.826252] (-) TimerEvent: {}
+[2.927095] (-) TimerEvent: {}
+[3.027774] (-) TimerEvent: {}
+[3.128490] (-) TimerEvent: {}
+[3.229186] (-) TimerEvent: {}
+[3.331664] (-) TimerEvent: {}
+[3.432391] (-) TimerEvent: {}
+[3.535252] (-) TimerEvent: {}
+[3.636145] (-) TimerEvent: {}
+[3.721615] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.736302] (-) TimerEvent: {}
+[3.797064] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.836456] (-) TimerEvent: {}
+[3.874276] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.874798] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.875020] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.937251] (-) TimerEvent: {}
+[3.972265] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.017941] (my_robot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.021222] (my_robot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.037000] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.038997] (-) TimerEvent: {}
+[4.141277] (-) TimerEvent: {}
+[4.243272] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.243569] (-) TimerEvent: {}
+[4.281850] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/jefri/ros2_ws/build/my_robot_interfaces\n'}
+[4.346275] (-) TimerEvent: {}
+[4.363296] (my_robot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.407367] (my_robot_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.447252] (-) TimerEvent: {}
+[4.547955] (-) TimerEvent: {}
+[4.651256] (-) TimerEvent: {}
+[4.689327] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jefri/ros2_ws/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jefri/ros2_ws/build/my_robot_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'jefri', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jefri', 'OLDPWD': '/home/jefri/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1307', 'SYSTEMD_EXEC_PID': '1476', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6379', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jefri/ros2_ws/install:/home/jefri/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jefri', 'JOURNAL_STREAM': '8:12020', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jefri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jefri-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1446,unix/jefri-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1446', 'INVOCATION_ID': '1b9a3b904a4e47339868aea67a405752', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LN52X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/home/jefri/ros2_ws/install/custom_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5897e6ae-f307-47c8-bf39-50d0ba9d9740', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jefri/ros2_ws/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jefri/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/build/my_robot_controller:/home/jefri/ros2_ws/build/add_integers:/home/jefri/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/my_robot_controller:/home/jefri/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/custom_interfaces'}, 'shell': False}
+[4.752261] (-) TimerEvent: {}
+[4.853237] (-) TimerEvent: {}
+[4.956250] (-) TimerEvent: {}
+[5.057192] (-) TimerEvent: {}
+[5.157992] (-) TimerEvent: {}
+[5.261242] (-) TimerEvent: {}
+[5.362010] (-) TimerEvent: {}
+[5.462891] (-) TimerEvent: {}
+[5.565250] (-) TimerEvent: {}
+[5.666025] (-) TimerEvent: {}
+[5.766881] (-) TimerEvent: {}
+[5.868283] (-) TimerEvent: {}
+[5.887273] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[5.968418] (-) TimerEvent: {}
+[6.069782] (-) TimerEvent: {}
+[6.152329] (my_robot_interfaces) StdoutLine: {'line': b'[  4%] Built target my_robot_interfaces__cpp\n'}
+[6.169936] (-) TimerEvent: {}
+[6.202212] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[6.259289] (my_robot_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardwarestatus__functions.c.o\x1b[0m\n'}
+[6.270130] (-) TimerEvent: {}
+[6.295256] (my_robot_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_my_robot_interfaces\n'}
+[6.326362] (my_robot_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle__functions.c.o\x1b[0m\n'}
+[6.370260] (-) TimerEvent: {}
+[6.470783] (my_robot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle_array__functions.c.o\x1b[0m\n'}
+[6.474035] (-) TimerEvent: {}
+[6.532366] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.574210] (-) TimerEvent: {}
+[6.592295] (my_robot_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.674353] (-) TimerEvent: {}
+[6.717031] (my_robot_interfaces) StdoutLine: {'line': b'[ 14%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[6.751278] (my_robot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.776260] (-) TimerEvent: {}
+[6.792288] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[6.792973] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[6.793958] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[6.796885] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[6.798443] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[6.798800] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[6.811259] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[6.817845] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[6.828217] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[6.828538] (my_robot_controller) StdoutLine: {'line': b'Creating /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[6.836272] (my_robot_controller) StdoutLine: {'line': b'Installing add_int_server script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[6.836577] (my_robot_controller) StdoutLine: {'line': b'Installing publisher script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[6.838374] (my_robot_controller) StdoutLine: {'line': b'Installing subscribe script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[6.838751] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[6.838936] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[6.844258] (my_robot_controller) StdoutLine: {'line': b'Installed /home/jefri/ros2_ws/build/my_robot_controller\n'}
+[6.844633] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[6.876391] (-) TimerEvent: {}
+[6.979256] (-) TimerEvent: {}
+[7.065635] (my_robot_controller) CommandEnded: {'returncode': 0}
+[7.080690] (-) TimerEvent: {}
+[7.122107] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[7.129316] (add_integers) JobStarted: {'identifier': 'add_integers'}
+[7.180917] (-) TimerEvent: {}
+[7.282256] (-) TimerEvent: {}
+[7.384252] (-) TimerEvent: {}
+[7.484898] (-) TimerEvent: {}
+[7.585747] (-) TimerEvent: {}
+[7.688575] (-) TimerEvent: {}
+[7.700567] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.753230] (my_robot_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardwarestatus__type_support.cpp.o\x1b[0m\n'}
+[7.788750] (-) TimerEvent: {}
+[7.890582] (-) TimerEvent: {}
+[7.940797] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.978212] (my_robot_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardwarestatus__type_support.cpp.o\x1b[0m\n'}
+[7.991280] (-) TimerEvent: {}
+[8.094260] (-) TimerEvent: {}
+[8.195146] (-) TimerEvent: {}
+[8.296188] (-) TimerEvent: {}
+[8.400264] (-) TimerEvent: {}
+[8.501258] (-) TimerEvent: {}
+[8.602270] (-) TimerEvent: {}
+[8.704266] (-) TimerEvent: {}
+[8.804836] (-) TimerEvent: {}
+[8.905591] (-) TimerEvent: {}
+[9.005390] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[9.005808] (-) TimerEvent: {}
+[9.106868] (-) TimerEvent: {}
+[9.207583] (-) TimerEvent: {}
+[9.308278] (-) TimerEvent: {}
+[9.410605] (-) TimerEvent: {}
+[9.511373] (-) TimerEvent: {}
+[9.614419] (-) TimerEvent: {}
+[9.715175] (-) TimerEvent: {}
+[9.814834] (my_robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o\x1b[0m\n'}
+[9.817335] (-) TimerEvent: {}
+[9.918047] (-) TimerEvent: {}
+[10.022266] (-) TimerEvent: {}
+[10.123047] (-) TimerEvent: {}
+[10.190346] (my_robot_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[10.223222] (-) TimerEvent: {}
+[10.324640] (-) TimerEvent: {}
+[10.428479] (-) TimerEvent: {}
+[10.434918] (add_integers) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jefri/ros2_ws/build/add_integers/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jefri/ros2_ws/build/add_integers', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'jefri', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jefri/ros2_ws/install/custom_interfaces/lib:/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jefri', 'OLDPWD': '/home/jefri/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1307', 'SYSTEMD_EXEC_PID': '1476', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6379', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jefri/ros2_ws/install:/home/jefri/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jefri', 'JOURNAL_STREAM': '8:12020', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jefri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jefri-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1446,unix/jefri-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1446', 'INVOCATION_ID': '1b9a3b904a4e47339868aea67a405752', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LN52X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/home/jefri/ros2_ws/install/custom_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5897e6ae-f307-47c8-bf39-50d0ba9d9740', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jefri/ros2_ws/build/add_integers', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jefri/ros2_ws/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/jefri/ros2_ws/build/my_robot_controller:/home/jefri/ros2_ws/build/add_integers:/home/jefri/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/my_robot_controller:/home/jefri/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jefri/ros2_ws/install/custom_interfaces:/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_interfaces'}, 'shell': False}
+[10.531291] (-) TimerEvent: {}
+[10.631828] (-) TimerEvent: {}
+[10.732613] (-) TimerEvent: {}
+[10.838640] (-) TimerEvent: {}
+[10.949284] (-) TimerEvent: {}
+[11.051497] (-) TimerEvent: {}
+[11.152255] (-) TimerEvent: {}
+[11.254842] (-) TimerEvent: {}
+[11.359259] (-) TimerEvent: {}
+[11.462046] (-) TimerEvent: {}
+[11.537408] (my_robot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.562213] (-) TimerEvent: {}
+[11.664297] (-) TimerEvent: {}
+[11.744166] (my_robot_interfaces) StdoutLine: {'line': b'[ 29%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[11.764439] (-) TimerEvent: {}
+[11.770379] (my_robot_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[11.800350] (my_robot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.864579] (-) TimerEvent: {}
+[11.965358] (-) TimerEvent: {}
+[12.068269] (-) TimerEvent: {}
+[12.100406] (add_integers) StdoutLine: {'line': b'running develop\n'}
+[12.170146] (-) TimerEvent: {}
+[12.270876] (-) TimerEvent: {}
+[12.373257] (-) TimerEvent: {}
+[12.474264] (-) TimerEvent: {}
+[12.575268] (-) TimerEvent: {}
+[12.679274] (-) TimerEvent: {}
+[12.780036] (-) TimerEvent: {}
+[12.880837] (-) TimerEvent: {}
+[12.981584] (-) TimerEvent: {}
+[13.055361] (add_integers) StdoutLine: {'line': b'running egg_info\n'}
+[13.061070] (add_integers) StdoutLine: {'line': b'writing add_integers.egg-info/PKG-INFO\n'}
+[13.065024] (add_integers) StdoutLine: {'line': b'writing dependency_links to add_integers.egg-info/dependency_links.txt\n'}
+[13.067217] (add_integers) StdoutLine: {'line': b'writing entry points to add_integers.egg-info/entry_points.txt\n'}
+[13.074258] (add_integers) StdoutLine: {'line': b'writing requirements to add_integers.egg-info/requires.txt\n'}
+[13.075642] (add_integers) StdoutLine: {'line': b'writing top-level names to add_integers.egg-info/top_level.txt\n'}
+[13.078972] (add_integers) StdoutLine: {'line': b"reading manifest file 'add_integers.egg-info/SOURCES.txt'\n"}
+[13.082017] (-) TimerEvent: {}
+[13.083683] (add_integers) StdoutLine: {'line': b"writing manifest file 'add_integers.egg-info/SOURCES.txt'\n"}
+[13.090814] (add_integers) StdoutLine: {'line': b'running build_ext\n'}
+[13.092658] (add_integers) StdoutLine: {'line': b'Creating /home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages/add-integers.egg-link (link to .)\n'}
+[13.097698] (add_integers) StdoutLine: {'line': b'Installing addition_client script to /home/jefri/ros2_ws/install/add_integers/lib/add_integers\n'}
+[13.099763] (add_integers) StdoutLine: {'line': b'Installing addition_service script to /home/jefri/ros2_ws/install/add_integers/lib/add_integers\n'}
+[13.102302] (add_integers) StdoutLine: {'line': b'\n'}
+[13.102703] (add_integers) StdoutLine: {'line': b'Installed /home/jefri/ros2_ws/build/add_integers\n'}
+[13.102932] (add_integers) StdoutLine: {'line': b'running symlink_data\n'}
+[13.184292] (-) TimerEvent: {}
+[13.200469] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[13.275307] (add_integers) CommandEnded: {'returncode': 0}
+[13.293903] (-) TimerEvent: {}
+[13.309882] (my_robot_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardwarestatus__type_support.cpp.o\x1b[0m\n'}
+[13.344476] (add_integers) JobEnded: {'identifier': 'add_integers', 'rc': 0}
+[13.395278] (-) TimerEvent: {}
+[13.496177] (-) TimerEvent: {}
+[13.599304] (-) TimerEvent: {}
+[13.700113] (-) TimerEvent: {}
+[13.723381] (my_robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.800285] (-) TimerEvent: {}
+[13.901296] (-) TimerEvent: {}
+[13.949753] (my_robot_interfaces) StdoutLine: {'line': b'[ 38%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[13.972266] (my_robot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/turtle__type_support.cpp.o\x1b[0m\n'}
+[14.001460] (-) TimerEvent: {}
+[14.103431] (-) TimerEvent: {}
+[14.204181] (-) TimerEvent: {}
+[14.311286] (-) TimerEvent: {}
+[14.413279] (-) TimerEvent: {}
+[14.518266] (-) TimerEvent: {}
+[14.618939] (-) TimerEvent: {}
+[14.719681] (-) TimerEvent: {}
+[14.820455] (-) TimerEvent: {}
+[14.921271] (-) TimerEvent: {}
+[15.022749] (-) TimerEvent: {}
+[15.124483] (-) TimerEvent: {}
+[15.226255] (-) TimerEvent: {}
+[15.241364] (my_robot_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[15.326383] (-) TimerEvent: {}
+[15.427032] (-) TimerEvent: {}
+[15.454392] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[15.459477] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[15.461610] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[15.464610] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[15.473633] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[15.477091] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[15.528279] (-) TimerEvent: {}
+[15.566918] (my_robot_interfaces) StdoutLine: {'line': b'[ 42%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[15.595390] (my_robot_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.629262] (-) TimerEvent: {}
+[15.729748] (-) TimerEvent: {}
+[15.831272] (-) TimerEvent: {}
+[15.931763] (-) TimerEvent: {}
+[16.032217] (-) TimerEvent: {}
+[16.134264] (-) TimerEvent: {}
+[16.234748] (-) TimerEvent: {}
+[16.335243] (-) TimerEvent: {}
+[16.412604] (my_robot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.436283] (-) TimerEvent: {}
+[16.521206] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[16.536992] (-) TimerEvent: {}
+[16.560122] (my_robot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardwarestatus__type_support_c.cpp.o\x1b[0m\n'}
+[16.634354] (my_robot_interfaces) StdoutLine: {'line': b'[ 48%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[16.637128] (-) TimerEvent: {}
+[16.652001] (my_robot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/turtle__type_support_c.cpp.o\x1b[0m\n'}
+[16.737290] (-) TimerEvent: {}
+[16.837916] (-) TimerEvent: {}
+[16.938630] (-) TimerEvent: {}
+[17.039372] (-) TimerEvent: {}
+[17.141645] (-) TimerEvent: {}
+[17.242395] (-) TimerEvent: {}
+[17.343175] (-) TimerEvent: {}
+[17.446264] (-) TimerEvent: {}
+[17.467812] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/turtle_array__type_support_c.cpp.o\x1b[0m\n'}
+[17.546425] (-) TimerEvent: {}
+[17.570434] (my_robot_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[17.646555] (-) TimerEvent: {}
+[17.748594] (-) TimerEvent: {}
+[17.849265] (-) TimerEvent: {}
+[17.949938] (-) TimerEvent: {}
+[18.052589] (-) TimerEvent: {}
+[18.153279] (-) TimerEvent: {}
+[18.255268] (-) TimerEvent: {}
+[18.355764] (-) TimerEvent: {}
+[18.457266] (-) TimerEvent: {}
+[18.540327] (my_robot_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.557415] (-) TimerEvent: {}
+[18.659309] (-) TimerEvent: {}
+[18.705904] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[18.730214] (my_robot_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardwarestatus__type_support.c.o\x1b[0m\n'}
+[18.753283] (my_robot_interfaces) StdoutLine: {'line': b'[ 59%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[18.759465] (-) TimerEvent: {}
+[18.770457] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o\x1b[0m\n'}
+[18.805583] (my_robot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o\x1b[0m\n'}
+[18.845300] (my_robot_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.859612] (-) TimerEvent: {}
+[18.881365] (my_robot_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.953204] (my_robot_interfaces) StdoutLine: {'line': b'[ 68%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[18.959778] (-) TimerEvent: {}
+[19.060622] (-) TimerEvent: {}
+[19.161066] (-) TimerEvent: {}
+[19.261971] (-) TimerEvent: {}
+[19.363296] (-) TimerEvent: {}
+[19.388050] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[19.413092] (my_robot_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[19.414996] (my_robot_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardwarestatus__type_support.cpp.o\x1b[0m\n'}
+[19.463453] (-) TimerEvent: {}
+[19.464900] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[19.512358] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.563978] (-) TimerEvent: {}
+[19.579953] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[19.614064] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_robot_interfaces\n'}
+[19.647379] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.664138] (-) TimerEvent: {}
+[19.764608] (-) TimerEvent: {}
+[19.865507] (-) TimerEvent: {}
+[19.965962] (-) TimerEvent: {}
+[20.066435] (-) TimerEvent: {}
+[20.166866] (-) TimerEvent: {}
+[20.267303] (-) TimerEvent: {}
+[20.367740] (-) TimerEvent: {}
+[20.468243] (-) TimerEvent: {}
+[20.568761] (-) TimerEvent: {}
+[20.578749] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_robot_interfaces__py\n'}
+[20.600273] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_py\x1b[0m\n'}
+[20.624421] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_turtle_s.c.o\x1b[0m\n'}
+[20.624757] (my_robot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardwarestatus_s.c.o\x1b[0m\n'}
+[20.670279] (-) TimerEvent: {}
+[20.770959] (-) TimerEvent: {}
+[20.833482] (my_robot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_turtle_array_s.c.o\x1b[0m\n'}
+[20.871125] (-) TimerEvent: {}
+[20.971795] (-) TimerEvent: {}
+[21.018941] (my_robot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[21.071956] (-) TimerEvent: {}
+[21.102870] (my_robot_interfaces) StdoutLine: {'line': b'[ 87%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[21.122668] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[21.127602] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[21.149628] (my_robot_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[21.157297] (my_robot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[21.172125] (-) TimerEvent: {}
+[21.273107] (-) TimerEvent: {}
+[21.375586] (my_robot_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[21.375922] (-) TimerEvent: {}
+[21.376505] (my_robot_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[21.476101] (-) TimerEvent: {}
+[21.480356] (my_robot_interfaces) StdoutLine: {'line': b'[ 95%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[21.485303] (my_robot_interfaces) StdoutLine: {'line': b'[ 95%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[21.500292] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[21.526355] (my_robot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[21.576273] (-) TimerEvent: {}
+[21.676760] (-) TimerEvent: {}
+[21.696252] (my_robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[21.771640] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[21.776928] (-) TimerEvent: {}
+[21.791355] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[21.877064] (-) TimerEvent: {}
+[21.962698] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[21.964470] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jefri/ros2_ws/build/my_robot_interfaces'], 'cwd': '/home/jefri/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jefri'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jefri'), ('OLDPWD', '/home/jefri/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1307'), ('SYSTEMD_EXEC_PID', '1476'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6379'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jefri/ros2_ws/install:/home/jefri/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jefri'), ('JOURNAL_STREAM', '8:12020'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jefri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jefri-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1446,unix/jefri-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1446'), ('INVOCATION_ID', '1b9a3b904a4e47339868aea67a405752'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LN52X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/home/jefri/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5897e6ae-f307-47c8-bf39-50d0ba9d9740'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jefri/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jefri/ros2_ws/build/my_robot_controller:/home/jefri/ros2_ws/build/add_integers:/home/jefri/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/my_robot_controller:/home/jefri/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/custom_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/opt/ros/humble')]), 'shell': False}
+[21.976851] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.977960] (-) TimerEvent: {}
+[21.978536] (my_robot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.979931] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[21.981615] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__functions.h\n'}
+[21.982642] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__struct.h\n'}
+[21.983283] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__type_support.h\n'}
+[21.985235] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__functions.h\n'}
+[21.985520] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.h\n'}
+[21.985647] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.h\n'}
+[21.985795] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__functions.h\n'}
+[21.985917] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.h\n'}
+[21.986032] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.h\n'}
+[21.986143] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardwarestatus.h\n'}
+[21.986296] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.988235] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.h\n'}
+[21.988862] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_array.h\n'}
+[21.989000] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[21.989117] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[21.991221] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_fastrtps_c.h\n'}
+[21.991521] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[21.991657] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[21.991774] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.991888] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_introspection_c.h\n'}
+[21.992002] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[21.992698] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[21.992949] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.994245] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__builder.hpp\n'}
+[21.994512] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__struct.hpp\n'}
+[21.996214] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__traits.hpp\n'}
+[21.996486] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__builder.hpp\n'}
+[21.996609] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.hpp\n'}
+[21.996726] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__traits.hpp\n'}
+[21.996837] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__builder.hpp\n'}
+[21.996948] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.hpp\n'}
+[21.997060] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__traits.hpp\n'}
+[21.999217] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardwarestatus.hpp\n'}
+[21.999495] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.hpp\n'}
+[21.999615] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_array.hpp\n'}
+[21.999759] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.999876] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.999991] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.000441] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.001723] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.002012] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.003242] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.003516] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[22.003637] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[22.008419] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[22.008596] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[22.008715] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[22.008827] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[22.010918] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py\n'}
+[22.012220] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[22.012499] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[22.012621] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[22.015643] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[22.015972] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py\n'}
+[22.016094] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardwarestatus.py\n'}
+[22.017082] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardwarestatus_s.c\n'}
+[22.017391] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle.py\n'}
+[22.017521] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_array.py\n'}
+[22.017664] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_array_s.c\n'}
+[22.017779] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_s.c\n'}
+[22.017889] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[22.018002] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[22.020231] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[22.020515] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[22.020664] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[22.020783] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[22.021087] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Hardwarestatus.idl\n'}
+[22.022225] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.idl\n'}
+[22.024216] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.idl\n'}
+[22.024486] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Hardwarestatus.msg\n'}
+[22.024607] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.msg\n'}
+[22.024748] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.msg\n'}
+[22.024865] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[22.025170] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[22.027210] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[22.027479] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[22.027599] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[22.027715] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[22.027830] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[22.027944] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[22.029384] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[22.029672] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[22.029793] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[22.044918] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[22.045645] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[22.046823] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.048060] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.049128] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.050833] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.051971] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.054089] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.054419] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[22.054628] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[22.054795] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[22.054920] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[22.055059] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""\n'}
+[22.058819] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[22.059093] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.059292] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[22.059447] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.059583] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[22.059725] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[22.059864] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.059996] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[22.060142] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[22.064522] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[22.064682] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[22.064819] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[22.080181] (-) TimerEvent: {}
+[22.133657] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...\n"}
+[22.134033] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...\n"}
+[22.134399] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...\n"}
+[22.134702] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py'...\n"}
+[22.134968] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardwarestatus.py'...\n"}
+[22.138830] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle.py'...\n"}
+[22.139283] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_array.py'...\n"}
+[22.147494] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[22.148082] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jefri/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""\n'}
+[22.150413] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[22.150803] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.150960] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.151083] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[22.151276] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.151428] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.151549] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[22.151667] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.151787] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[22.151919] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.152049] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[22.152849] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.153064] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.153213] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[22.153338] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.153449] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[22.153579] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jefri/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[22.156235] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[22.181283] (-) TimerEvent: {}
+[22.281727] (-) TimerEvent: {}
+[22.371312] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[22.373624] (turtlesim_catch_them_all) JobStarted: {'identifier': 'turtlesim_catch_them_all'}
+[22.381905] (-) TimerEvent: {}
+[22.482690] (-) TimerEvent: {}
+[22.583143] (-) TimerEvent: {}
+[22.683611] (-) TimerEvent: {}
+[22.784065] (-) TimerEvent: {}
+[22.884554] (-) TimerEvent: {}
+[22.985038] (-) TimerEvent: {}
+[23.085991] (-) TimerEvent: {}
+[23.186453] (-) TimerEvent: {}
+[23.286900] (-) TimerEvent: {}
+[23.387370] (-) TimerEvent: {}
+[23.487828] (-) TimerEvent: {}
+[23.588282] (-) TimerEvent: {}
+[23.688779] (-) TimerEvent: {}
+[23.750241] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jefri/ros2_ws/build/turtlesim_catch_them_all/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jefri/ros2_ws/build/turtlesim_catch_them_all', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'jefri', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jefri/ros2_ws/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/src/install/my_robot_interfaces/lib:/home/jefri/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jefri', 'OLDPWD': '/home/jefri/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1307', 'SYSTEMD_EXEC_PID': '1476', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6379', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jefri/ros2_ws/install:/home/jefri/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jefri', 'JOURNAL_STREAM': '8:12020', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jefri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jefri-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1446,unix/jefri-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1446', 'INVOCATION_ID': '1b9a3b904a4e47339868aea67a405752', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LN52X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/my_robot_controller:/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/install/my_robot_controller:/home/jefri/ros2_ws/install/add_integers:/home/jefri/ros2_ws/install/custom_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5897e6ae-f307-47c8-bf39-50d0ba9d9740', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jefri/ros2_ws/build/turtlesim_catch_them_all', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jefri/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/build/my_robot_controller:/home/jefri/ros2_ws/build/add_integers:/home/jefri/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/turtlesim_catch_them_all:/home/jefri/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/jefri/ros2_ws/src/build/my_robot_controller:/home/jefri/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/jefri/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jefri/ros2_ws/install/my_robot_interfaces:/home/jefri/ros2_ws/src/install/my_robot_interfaces:/home/jefri/ros2_ws/install/custom_interfaces'}, 'shell': False}
+[23.788944] (-) TimerEvent: {}
+[23.889425] (-) TimerEvent: {}
+[23.989846] (-) TimerEvent: {}
+[24.090270] (-) TimerEvent: {}
+[24.190704] (-) TimerEvent: {}
+[24.291189] (-) TimerEvent: {}
+[24.312289] (turtlesim_catch_them_all) StdoutLine: {'line': b'running develop\n'}
+[24.391313] (-) TimerEvent: {}
+[24.491764] (-) TimerEvent: {}
+[24.592229] (-) TimerEvent: {}
+[24.633182] (turtlesim_catch_them_all) StdoutLine: {'line': b'running egg_info\n'}
+[24.636742] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing turtlesim_catch_them_all.egg-info/PKG-INFO\n'}
+[24.638333] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt\n'}
+[24.639860] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt\n'}
+[24.640086] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing requirements to turtlesim_catch_them_all.egg-info/requires.txt\n'}
+[24.640261] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt\n'}
+[24.640393] (turtlesim_catch_them_all) StdoutLine: {'line': b"reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[24.643262] (turtlesim_catch_them_all) StdoutLine: {'line': b"writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[24.643930] (turtlesim_catch_them_all) StdoutLine: {'line': b'running build_ext\n'}
+[24.645072] (turtlesim_catch_them_all) StdoutLine: {'line': b'Creating /home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)\n'}
+[24.647201] (turtlesim_catch_them_all) StdoutLine: {'line': b'Installing turtle_spawner script to /home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all\n'}
+[24.649094] (turtlesim_catch_them_all) StdoutLine: {'line': b'Installing turtlesim_controller script to /home/jefri/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all\n'}
+[24.649338] (turtlesim_catch_them_all) StdoutLine: {'line': b'\n'}
+[24.649471] (turtlesim_catch_them_all) StdoutLine: {'line': b'Installed /home/jefri/ros2_ws/build/turtlesim_catch_them_all\n'}
+[24.649580] (turtlesim_catch_them_all) StdoutLine: {'line': b'running symlink_data\n'}
+[24.692398] (-) TimerEvent: {}
+[24.739484] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[24.761290] (turtlesim_catch_them_all) JobEnded: {'identifier': 'turtlesim_catch_them_all', 'rc': 0}
+[24.763273] (-) EventReactorShutdown: {}

@@ -1,0 +1,54 @@
+[2.481s] Invoking command in '/home/jefri/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/jefri/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jefri/ros2_ws/build/my_robot_controller/build
+[3.690s] running develop
+[4.283s] Removing /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[4.473s] Invoked command in '/home/jefri/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/jefri/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jefri/ros2_ws/build/my_robot_controller/build
+[4.474s] Invoking command in '/home/jefri/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/jefri/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/jefri/ros2_ws/build/my_robot_controller/build install --record /home/jefri/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
+[5.784s] running egg_info
+[5.787s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[5.790s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[5.793s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[5.793s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[5.793s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[5.811s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[5.828s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[5.830s] running build
+[5.831s] running build_py
+[5.831s] creating /home/jefri/ros2_ws/build/my_robot_controller/build
+[5.831s] creating /home/jefri/ros2_ws/build/my_robot_controller/build/lib
+[5.831s] creating /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.831s] copying my_robot_controller/add_int_server.py -> /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.840s] copying my_robot_controller/hardware_status_pub.py -> /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.855s] copying my_robot_controller/draw_circle.py -> /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.868s] copying my_robot_controller/publisher.py -> /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.875s] copying my_robot_controller/subscribe.py -> /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.882s] copying my_robot_controller/__init__.py -> /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.882s] copying my_robot_controller/my_first_node.py -> /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.896s] running install
+[5.897s] running install_lib
+[5.898s] creating /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[5.899s] copying /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/add_int_server.py -> /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[5.902s] copying /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/hardware_status_pub.py -> /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[5.903s] copying /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[5.906s] copying /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/publisher.py -> /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[5.906s] copying /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/subscribe.py -> /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[5.908s] copying /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[5.911s] copying /home/jefri/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[5.912s] byte-compiling /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/add_int_server.py to add_int_server.cpython-310.pyc
+[5.917s] byte-compiling /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/hardware_status_pub.py to hardware_status_pub.cpython-310.pyc
+[5.919s] byte-compiling /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[5.925s] byte-compiling /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/publisher.py to publisher.cpython-310.pyc
+[5.925s] byte-compiling /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/subscribe.py to subscribe.cpython-310.pyc
+[5.926s] byte-compiling /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[5.929s] byte-compiling /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[5.930s] running install_data
+[5.931s] copying resource/my_robot_controller -> /home/jefri/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[5.936s] copying package.xml -> /home/jefri/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[5.943s] running install_egg_info
+[5.950s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[5.969s] running install_scripts
+[6.033s] Installing add_int_server script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[6.034s] Installing publisher script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[6.036s] Installing subscribe script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[6.037s] Installing test_node script to /home/jefri/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[6.040s] writing list of installed files to '/home/jefri/ros2_ws/build/my_robot_controller/install.log'
+[6.156s] Invoked command in '/home/jefri/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/jefri/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jefri/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/jefri/ros2_ws/build/my_robot_controller/build install --record /home/jefri/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
